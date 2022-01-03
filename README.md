@@ -7,31 +7,39 @@ The purpose of the project is to improve quality of user requirements, the veloc
 # Example Workflows
 ## Improve quality of business requirements 
 
-At the beginning of the sprint there are points allocated to the sprint based on the value that the product owner thinks the sprint is worth. These token must have an actual value. 
+As a product owner I want to capture the amount of reward money for a sprint so that I can show the importance and value of each sprint.
 
-On the start date of a sprint all stories have to have tasks and all tasks have to have points. If that is the case the teams earns points. Each story must have acceptance criteria and test cases. If that is the case the team earns points.
+As a product owner I want to capture the definition of ready for a user story so that the quality of the user stories can be measured before the sprint start. e.g The user story must be written in the correct format. 2. The user story must have 4 to 5 acceptance criteria. The user story must have task that have story points.
+
+As a product owner on the first day of the sprint I want to click the calculate reawards button so that the value I have specified can be shared accross requirements, development and testing.
+
+As a system I want to calculate how much money the team has earned based on the quality of the user stories, acceptance criteria, tasks and story points.
 
 ## Improve velocity through out the sprint and not points getting burned 2 towards the end of the sprint
 
-The systems then calculates the velocity of points that need to be burned each day. If the teams burns that amount points are earned.
+As a scrum master after the daily standup I must click the daily rewards button so that tokens are allocated to the team based on the closed user stories so that the team keeps a steady velocity throughout the sprint and not finish stories only towards the end of the sprint.
+
+As a system I need to calculate the amount of story points that need to be burned each day so that it can be used to reward team members with tokens. 
 
 The story can only be moved to closed by the product owner and that is the points can be earned.
 
 ## Motivate team members
 
-There is a leader board which shows teams members and calculates their velocity and a leader board. The team members that perform at the appropriate burn rate earn points daily.
+As a system I must show a leader board of how the team members point allocations.
 
-The app must show what is the earning potential in each sprint. 
+As a system I must show a dashboard of how point can be earned
 
-At the end of the sprint summarise how the sprint went bases on how many points where earned.
+As a system at the end of a sprint I must show show how much money was earned vs how much could have been earned and where the money was lost
 
 ## Deincetivise low quality software releases to QA
 
-There is slashing on team members based on the number of bugs logged.
+As a system I must slash points from a team member if the go above the agreed threthhold of bugs per story.
 
 ## Incentivise through software testing
 
-Team members who are allocated the role tester get points based on the number of bugs they log. If a bug the logged is marked as non issue they get slashed.
+As a system I must reward testers with points based on the amount of bugs they log.
+
+As a system I must slash points from a tester if a bug is marked as a non issue.
 
 # Live Deployed Site
 
